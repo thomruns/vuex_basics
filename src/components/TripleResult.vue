@@ -1,12 +1,12 @@
 <template>
-    <p>Counter is: {{ counter }}</p>
+    <p>Triple Result: {{ counter }}</p>
 </template>
 
 <script>
     export default {
         computed: {
             counter() {
-                return this.$store.getters.doubleCounter
+                return this.$store.getters.tripleCounter
             }
         }
     }

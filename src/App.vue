@@ -5,6 +5,7 @@
                 <h1>Vuex Basics</h1>
                 <app-result></app-result>
                 <app-another-result></app-another-result>
+                <app-triple-result></app-triple-result>
                 <hr>
                 <app-counter></app-counter>
             </div>
@@ -16,12 +17,14 @@
     import Counter from './components/Counter.vue';
     import Result from './components/Result.vue';
     import AnotherResult from './components/AnotherResult.vue';
+    import TripleResult from './components/TripleResult.vue';
 
     export default {
         components: {
             appCounter: Counter,
             appResult: Result,
-            appAnotherResult: AnotherResult
+            appAnotherResult: AnotherResult,
+            appTripleResult: TripleResult
         }
     }
 </script>
