@@ -13,6 +13,9 @@ export const store = new Vuex.Store({
     },
     tripleCounter: state => {
       return state.counter * 3
+    },
+    stringCounter: state => {
+      return state.counter + ' Clicks'
     }
   }
 })
