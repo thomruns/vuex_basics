@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <p>Another Counter is: {{ doubleCounter }}</p>
+    <div class="third">
+        <p>Another Counter Result is: {{ doubleCounter }}</p>
         <p>Number of clicks: {{ stringCounter }}</p>
     </div>
 </template>
@@ -17,3 +17,9 @@ import { mapGetters } from 'vuex'
         }
     }
 </script>
+    
+<style>
+.third {
+        background-color: aquamarine;
+    }
+</style>

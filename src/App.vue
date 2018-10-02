@@ -8,6 +8,7 @@
                 <app-triple-result></app-triple-result>
                 <hr>
                 <app-counter></app-counter>
+                <app-another-counter></app-another-counter>
             </div>
         </div>
     </div>
@@ -15,6 +16,7 @@
 
 <script>
     import Counter from './components/Counter.vue';
+    import AnotherCounter from './components/AnotherCounter.vue';
     import Result from './components/Result.vue';
     import AnotherResult from './components/AnotherResult.vue';
     import TripleResult from './components/TripleResult.vue';
@@ -24,7 +26,8 @@
             appCounter: Counter,
             appResult: Result,
             appAnotherResult: AnotherResult,
-            appTripleResult: TripleResult
+            appTripleResult: TripleResult,
+            appAnotherCounter: AnotherCounter
         }
     }
 </script>
