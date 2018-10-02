@@ -8,7 +8,7 @@ export const store = new Vuex.Store({
     counter: 0
   },
   getters: {
-    counter: state => {
+    getCounter: state => {
       return state.counter
     },
     tripleCounter: state => {

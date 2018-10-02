@@ -1,6 +1,6 @@
 <template>
     <div class="third">
-        <p>Another Counter Result is: {{ counter }}</p>
+        <p>Another Counter Result is: {{ getCounter }}</p>
         <p>Number of clicks: {{ stringCounter }}</p>
     </div>
 </template>
@@ -10,7 +10,7 @@ import { mapGetters } from 'vuex'
     export default {
         computed: { // make a mapGetters object so that custom computed properties can still be written
             ...mapGetters([ // using ES6 spread operator (...) to make key/value pairs
-                'counter',
+                'getCounter',
                 'tripleCounter',
                 'stringCounter'
             ])
