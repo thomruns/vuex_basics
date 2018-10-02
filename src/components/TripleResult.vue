@@ -1,5 +1,7 @@
 <template>
-    <p>Triple Result: {{ counter }}</p>
+    <div class="almond">
+        <p>Triple Result: {{ counter }}</p>
+    </div>
 </template>
 
 <script>
@@ -11,3 +13,9 @@
         }
     }
 </script>
+
+<style>
+ .almond {
+     background-color: blanchedalmond;
+ }
+</style>
